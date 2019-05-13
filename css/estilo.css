@@ -77,6 +77,33 @@ footer {
     background: #85C1E9;
 }
 
+table {
+    background-color: white;
+    text-align: left;
+    border: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+thead {
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: #369681;
+    color: white;
+}
+
 p.new {
     font-family: 'cursive';
     color: black;
@@ -196,40 +223,48 @@ img {
     clip-path: circle(200px at center);
 }
 
-
-}
 .contact-info li.phone a {
     background-image: url('../img/phone.png');
 }
+
 .contact-info li.mail a {
     background-image: url('../img/email.png');
 }
+
 .contact-info li.face a {
     background-image: url('../img/facebook.png');
 }
+
 .contact-info li.link a {
     background-image: url('../img/link.png');
 }
+
 .contact-info li.git a {
     background-image: url('../img/gi.png');
 }
+
 .form-control {
     margin: 5px 0;
 }
+
 form textarea {
     width: 20em;
 }
+
 body {
     background-color: #fff;
     color: #999;
 }
+
 header {
     background: #80ccff;
     border-color: #33adff;
 }
+
 nav {
     background: #33adff;
 }
+
 .form-send {
     border: none;
     border-radius: 2px;
@@ -238,17 +273,20 @@ nav {
     width: 70px;
     color: #fff;
 }
-h1,
+
 h2 {
     color: #fff;
 }
+
 a {
     color: #4db8ff;
 }
+
 nav a,
 nav a:visited {
     color: #fff;
 }
+
 nav a.selected,
 nav a:hover {
     color: #008ae6;
