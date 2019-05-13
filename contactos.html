@@ -8,26 +8,31 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CONTACTO</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/estilo.css">
-    <nav>
-
-
-        <a href="index.html">INICIO</a>
-        <a href="sitiosTuristicos.html">LUGARES TURISTICOS</a>
-        <a href="contactos.html">CONTACTOS</a>
-
-    </nav>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeiner Rubio Acuña|Ingenieria de Sistemas-Universidad Nacional de Cajamarca</title>
+    <link href="https://fonts.googleapis.com/css?family=Maiden+Orange" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" type="img/png" href="img/ico.png" />
 </head>
-<hr>
 
 <body>
-
-    <h1>Contactanos Jei:</h1>
+    <header>
+        <a href="index.html" id="logo">
+            <h1>Jeiner Rubio Acuña</h1>
+            <h2>Ingenieria de Sistemas-<abbr title="UNIVERSIDAD NACIONAL DE CAJAMARCA "><strong> UNC</Strong></h2>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="sitiosTuristicos.html">Lugares Turisticos</a></li>
+				
+				<li><a href="contactos.html" class="selected">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<section id="primary">
+			 <h3>Contactanos Jei:</h3>
     <form>
         <label for="nombre">Nombre:</label>
         <br/>
@@ -54,49 +59,40 @@
         <input type="submit" name="Enviar" />
         <input type="reset" name="borrar" value="Eliminar" />
     </form>
-    <br/>
-    <div>
-        <h2 class="contact-subtitle">Información de contacto:</h2>
-        <ul class="contant-info-ul">
-
-            <li><abbr title="Celular"><img src="iconos/te.png" width="32" height="32"></abbr>Celular: <strong>968881908</strong></li>
-            <li><abbr title="E-mail"><img src="iconos/ema.png" width="32" height="32"></abbr>Correo: <strong>jrubioa14@unc.edu.pe</strong></li>
-            <li><abbr title="WhatsApp"><img src="iconos/wt.jpg" width="32" height="32"></abbr>Whatsapp: <strong>968881908</strong></li>
-
-        </ul>
-    </div>
-    </br>
-    <div>
+		</section>
+		<section id="secondary">
+			<h3>Detalles de contacto</h3>
+			<ul class="contact-info">
+				<li class="phone"><a href="tel:968881908">968881908</a></li>
+				<li class="mail"><a href="mailto:jeinerrubioa15@gmail.com">jeinerrubioa15@gmail.com</a></li>
+				<li class="face"><a href="https://www.facebook.com/">Facebook Jeiner</a></li>
+			</ul>
+		</section>
+		<section>			
         <h3>Ubicación:</h3>
         <address>Av. Perù &num;1292-Cajamarca</address>
         </br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.6636245234035!2d-78.51860738568035!3d-7.164829072289491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25b01c1d3bb9d%3A0x17d658673ea6b7ca!2sAv.+Per%C3%BA+1292%2C+Cajamarca+06002!5e0!3m2!1ses!2spe!4v1557032972269!5m2!1ses!2spe"
             width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-
-</body>
-<hr/>
-
-<footer>
-    &copy; 2019 Jeiner Rubio Acuña
-    <aside class="asideDerecha">
-
+		</section>
+	</div>
+	<footer>
+		<p>&copy; 2019 Jeiner Rubio Acuña</p>
+		<aside class="asideDerecha">
         Siguenos:
         <section>
             <br/>
             <a href="https://www.facebook.com/" target="_blank">
-                <abbr title="Facebook"><img src="iconos/ico_facebook03.png" alt="40" height="40"></abbr>
-            </a>
-            <a href="https://www.linkedin.com/feed/" target="_blank">
-                <abbr title="LinkedIn"><img src="iconos/in.jpg" alt="" height="40" width="40"></abbr>
-            </a>
-            <a href="https://github.com/Jeiner15" target="_blank">
-                <abbr title="GitHub"><img src="iconos/gith.png" alt="" height="40" width="40"></abbr>
-            </a>
+                <abbr title="Facebook"><img src="img/facebook-wrap.png" alt="40" height="40"></abbr>
+        </a>
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+            <abbr title="LinkedIn"><img src="img/link.png" alt="" height="40" width="40"></abbr>
+        </a>
+        <a href="https://github.com/Jeiner15" target="_blank">
+            <abbr title="GitHub"><img src="img/gi.png" alt="" height="40" width="40"></abbr>
+        </a>
         </section>
-
-    </aside>
-</footer>
-<address></address>
+        </footer>
+</body>
 
 </html>

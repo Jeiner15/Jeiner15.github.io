@@ -1,58 +1,255 @@
-header {
-    background-color: blanchedalmond
-}
-
 body {
-    color: red;
-    background-color: gray;
-    background-image: url("/imagenes/img1.jpg")
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(img/fon.jpg);
 }
 
-p.new {
-    color: darkblue;
-    font-style: italic;
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
 }
 
-table {
-    border-collapse: separate;
-    border-spacing: 3px;
-    background: brown(60, 180, 200);
-    color: rgb(68, 0, 255);
-    background-color: rgb(137, 139, 0)
-}
-
-#new {
-    color: red;
-    font-size: 3em;
-    font-style: verdana;
-}
-
-#rubi {
-    color: gold;
-    font-style: italic
-}
-
-a:hover {
-    background-color: #ffffff;
-    color: #000066;
+a {
     text-decoration: none;
 }
 
-a:visited {
-    background-color: #ffffff;
-    color: #00ff00;
+img {
+    max-width: 100%;
 }
 
-head.je {
-    background-color: lightseagreen;
+h3 {
+    margin: 0 0 1em 0;
+}
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
     width: 100%;
-    height: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Days One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 1em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
 }
 
 footer {
-    background-color: dodgerblue
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ffffff;
+    background: #85C1E9;
 }
 
-td {
-    color: black
+p.new {
+    font-family: 'cursive';
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media all and (min-width: 480px) {
+    #primary {
+        width: 50%;
+        float: left;
+    }
+    #secondary {
+        width: 40%;
+        float: left;
+    }
+    #gallery li {
+        width: 28.3333%;
+    }
+    #gallery li:nth-child(13n) {
+        clear: left;
+    }
+    .profile-photo {
+        float: left;
+        margin: 0 10% 100px 0;
+    }
+}
+
+@media all and (min-width: 660px) {
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+    }
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 0.825em;
+        margin-bottom: 20px;
+    }
+    header {
+        border-bottom: 5px solid #3adfff;
+        margin-bottom: 60px;
+    }
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #1A1B1B;
+}
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 50px;
+    border-radius: 100%;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+img {
+    align-content: center;
+}
+
+.img {
+    width: 100%;
+    clip-path: circle(200px at center);
+}
+
+
+}
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
+.contact-info li.mail a {
+    background-image: url('../img/email.png');
+}
+.contact-info li.face a {
+    background-image: url('../img/facebook.png');
+}
+.contact-info li.link a {
+    background-image: url('../img/link.png');
+}
+.contact-info li.git a {
+    background-image: url('../img/gi.png');
+}
+.form-control {
+    margin: 5px 0;
+}
+form textarea {
+    width: 20em;
+}
+body {
+    background-color: #fff;
+    color: #999;
+}
+header {
+    background: #80ccff;
+    border-color: #33adff;
+}
+nav {
+    background: #33adff;
+}
+.form-send {
+    border: none;
+    border-radius: 2px;
+    background-color: #33adff;
+    height: 40px;
+    width: 70px;
+    color: #fff;
+}
+h1,
+h2 {
+    color: #fff;
+}
+a {
+    color: #4db8ff;
+}
+nav a,
+nav a:visited {
+    color: #fff;
+}
+nav a.selected,
+nav a:hover {
+    color: #008ae6;
 }
