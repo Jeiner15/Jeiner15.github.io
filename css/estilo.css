@@ -37,6 +37,7 @@ h1 {
     font-family: 'Days One', sans-serif;
     margin: 15px 0;
     font-size: 1.75em;
+    color: white;
     font-weight: normal;
     line-height: 0.8em;
 }
@@ -80,7 +81,7 @@ footer {
 table {
     background-color: white;
     text-align: left;
-    border: collapse;
+    border: black;
     width: 100%;
 }
 
@@ -90,8 +91,8 @@ td {
 }
 
 thead {
-    background-color: #246355;
-    border-bottom: solid 5px #0F362D;
+    background-color: #3adfff;
+    border-bottom: solid 5px #008ae6;
     color: white;
 }
 
@@ -100,7 +101,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-    background-color: #369681;
+    background-color: #008ae6;
     color: white;
 }
 
