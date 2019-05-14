@@ -91,7 +91,8 @@ nav ul li:hover {
     animation: 0.3s ease-in agrandar infinite;
 }
 
-@keyframes agrandar {
+
+/*@keyframes agrandar {
     0% {
         font-size: 20px;
     }
@@ -101,7 +102,7 @@ nav ul li:hover {
     100% {
         font-size: 20px;
     }
-}
+}*/
 
 footer {
     font-size: 0.50em;
