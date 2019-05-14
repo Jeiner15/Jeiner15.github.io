@@ -31,6 +31,8 @@ header {
     background: #33adff;
     border-color: #33adff;
     justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 #div {
@@ -149,6 +151,15 @@ tr:hover {
     text-align: center
 }
 
+@media (max-width: 1000px) {
+    header {
+        /* Reverse the axis of the header, making it vertical. */
+        flex-direction: column;
+        /* Align items to the begining (the left) of the header. */
+        align-items: flex-start;
+    }
+}
+
 @media all and (min-width: 480px) {
     #primary {
         width: 50%;
@@ -199,8 +210,6 @@ tr:hover {
     header {
         border-bottom: 5px solid #3adfff;
         margin-bottom: 60px;
-        flex-direction: column;
-        align-items: flex-start;
     }
 }
 
