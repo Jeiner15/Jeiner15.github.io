@@ -88,7 +88,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-    animation: 0.10s ease-in agrandar infinite;
+    animation: 0.3s ease-in agrandar infinite;
 }
 
 @keyframes agrandar {
