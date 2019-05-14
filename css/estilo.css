@@ -15,6 +15,10 @@ a {
     color: #4db8ff;
 }
 
+.a {
+    color: #000;
+}
+
 img {
     max-width: 100%;
 }
@@ -30,9 +34,6 @@ header {
     width: 100%;
     background: #33adff;
     border-color: #33adff;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
 }
 
 #div {
@@ -86,7 +87,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-    animation: 0.5s ease-in agrandar infinite;
+    animation: 0.3s ease-in agrandar infinite;
 }
 
 @keyframes agrandar {
@@ -149,15 +150,6 @@ tr:hover {
     margin-right: auto;
     margin-left: auto;
     text-align: center
-}
-
-@media (max-width: 1000px) {
-    header {
-        /* Reverse the axis of the header, making it vertical. */
-        flex-direction: column;
-        /* Align items to the begining (the left) of the header. */
-        align-items: flex-start;
-    }
 }
 
 @media all and (min-width: 480px) {
@@ -224,7 +216,7 @@ tr:hover {
     width: 45%;
     margin: 2.5%;
     background-color: #f5f5f5;
-    color: #bdc3c7;
+    color: #051925;
 }
 
 #gallery li a p {
