@@ -165,7 +165,7 @@ tr:hover {
     }
     .profile-photo {
         float: left;
-        margin: 0 10% 100px 0;
+        margin: 0 50% 200px 0;
     }
 }
 
@@ -225,8 +225,8 @@ tr:hover {
 .profile-photo {
     display: block;
     max-width: 150px;
-    margin: 0 auto 50px;
-    border-radius: 100%;
+    margin: 0 auto 100px;
+    border-radius: 200%;
 }
 
 .contact-info {
