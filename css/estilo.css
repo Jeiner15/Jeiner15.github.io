@@ -12,6 +12,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #4db8ff;
 }
 
 img {
@@ -27,6 +28,8 @@ header {
     margin: 0 0 30px 0;
     padding: 5px 0 0 0;
     width: 100%;
+    background: #33adff;
+    border-color: #33adff;
 }
 
 #div {
@@ -40,7 +43,7 @@ header {
 }
 
 h1 {
-    font-family: 'Days One', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 15px 0;
     font-size: 1.75em;
     color: white;
@@ -52,28 +55,47 @@ h2 {
     font-size: 1em;
     margin: -5px 0 0;
     font-weight: normal;
-}
-
-nav {
-    text-align: center;
-    padding: 10px 0;
-    margin: 20px 0 0;
+    color: #fff;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0 10px;
+    margin: 10px 5%;
     padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
 }
 
-nav li {
+nav ul li {
     display: inline-block;
-    border: 2px dashed blue;
+    margin: 0;
+    padding: 10px;
+    border: 2px dashed white;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cornflowerblue;
 }
 
-nav a {
-    font-weight: 800;
-    padding: 15px 10px;
+nav ul li a {
+    color: white;
+}
+
+nav ul li:hover {
+    animation: 0.5s ease-in agrandar infinite;
+}
+
+@keyframes agrandar {
+    0% {
+        font-size: 20px;
+    }
+    50% {
+        font-size: 30px;
+    }
+    100% {
+        font-size: 20px;
+    }
 }
 
 footer {
@@ -82,7 +104,7 @@ footer {
     clear: both;
     padding-top: 50px;
     color: #ffffff;
-    background: #85C1E9;
+    background: rgb(9, 122, 197);
 }
 
 table {
@@ -95,16 +117,18 @@ table {
 th,
 td {
     padding: 20px;
+    text-align: center;
+    text-decoration: #1A1B1B;
 }
 
 thead {
-    background-color: #3adfff;
-    border-bottom: solid 5px #008ae6;
+    background-color: blue;
+    border-bottom: solid 5px blue;
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.459);
 }
 
 tr:hover {
@@ -136,7 +160,7 @@ tr:hover {
     #gallery li {
         width: 28.3333%;
     }
-    #gallery li:nth-child(13n) {
+    #gallery li:nth-child(20n) {
         clear: left;
     }
     .profile-photo {
@@ -162,21 +186,19 @@ tr:hover {
     }
     h1 {
         font-size: 2.5em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ffffff;
+        text-decoration-line: none;
     }
     h2 {
         font-size: 0.825em;
         margin-bottom: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     header {
         border-bottom: 5px solid #3adfff;
         margin-bottom: 60px;
     }
-}
-
-.social-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
 }
 
 #gallery {
@@ -216,9 +238,9 @@ tr:hover {
 
 .contact-info a {
     display: block;
-    min-height: 20px;
+    min-height: 25px;
     background-repeat: no-repeat;
-    background-size: 20px 20px;
+    background-size: 25px 25px;
     padding: 0 0 0 30px;
     margin: 0 0 10px;
 }
@@ -250,53 +272,4 @@ img {
 
 .contact-info li.git a {
     background-image: url('../img/gi.png');
-}
-
-.form-control {
-    margin: 5px 0;
-}
-
-form textarea {
-    width: 20em;
-}
-
-body {
-    background-color: #fff;
-    color: #999;
-}
-
-header {
-    background: #80ccff;
-    border-color: #33adff;
-}
-
-nav {
-    background: #33adff;
-}
-
-.form-send {
-    border: none;
-    border-radius: 2px;
-    background-color: #33adff;
-    height: 40px;
-    width: 70px;
-    color: #fff;
-}
-
-h2 {
-    color: #fff;
-}
-
-a {
-    color: #4db8ff;
-}
-
-nav a,
-nav a:visited {
-    color: #fff;
-}
-
-nav a.selected,
-nav a:hover {
-    color: #008ae6;
 }
