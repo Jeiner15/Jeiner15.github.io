@@ -259,7 +259,8 @@ img {
     clip-path: circle(200px at center);
 }
 
-.contact-info li.phone a {
+
+/*.contact-info li.phone a {
     background-image: url('../img/phone.png');
 }
 
