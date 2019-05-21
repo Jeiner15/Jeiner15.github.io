@@ -259,6 +259,53 @@ img {
     clip-path: circle(200px at center);
 }
 
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000px;
+    margin: 1em;
+}
+
+.social ul {
+    list-style: none;
+    margin: 1em;
+}
+
+.social ul li a {
+    display: block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook {
+    background: #ffffff;
+    margin: 1em;
+}
+
+.social ul li .icon-instagram {
+    background: #ffffff;
+    margin: 1em;
+}
+
+.social ul li .icon-whatsapp {
+    background: #ffffff;
+    margin: 1em;
+}
+
+.social ul li .icon-linkedin {
+    background: #ffffff;
+    margin: 1em;
+}
+
+.social ul li .icon-github {
+    background: #3a3b3f;
+    margin: 1em;
+}
+
 
 /*.contact-info li.phone a {
     background-image: url('../img/phone.png');
