@@ -167,6 +167,7 @@ tr:hover {
     }
     #gallery li:nth-child(20n) {
         clear: left;
+        float: left;
     }
     .profile-photo {
         float: left;
@@ -215,14 +216,14 @@ tr:hover {
 #gallery li {
     float: left;
     width: 45%;
-    margin: 2.5%;
+    margin: 0.5%;
     background-color: #f5f5f5;
     color: #051925;
 }
 
 #gallery li a p {
     margin: 0;
-    padding: 5%;
+    padding: 0.1%;
     font-size: 0.75em;
     color: #1A1B1B;
 }
