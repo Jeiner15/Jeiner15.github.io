@@ -282,28 +282,33 @@ img {
 }
 
 .social ul li .icon-facebook {
-    background: #ffffff;
-    margin: 1em;
+    background: #4169E1;
+    margin: 0em;
+    border-radius: 0.1em;
 }
 
 .social ul li .icon-instagram {
-    background: #ffffff;
-    margin: 1em;
+    background: #DB7093;
+    margin: 0em;
+    border-radius: 0.1em;
 }
 
 .social ul li .icon-whatsapp {
-    background: #ffffff;
-    margin: 1em;
+    background: #7CFC00;
+    margin: 0em;
+    border-radius: 0.1em;
 }
 
 .social ul li .icon-linkedin {
-    background: #ffffff;
-    margin: 1em;
+    background: #1E90FF;
+    margin: 0em;
+    border-radius: 0.1em;
 }
 
 .social ul li .icon-github {
     background: #3a3b3f;
-    margin: 1em;
+    margin: 0em;
+    border-radius: 0.1em;
 }
 
 
