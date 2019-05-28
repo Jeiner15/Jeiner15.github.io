@@ -1,6 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #F0E68C;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .contenido {
@@ -10,6 +11,7 @@ body {
     background: #F0E68C;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
 }
 
 h1,
