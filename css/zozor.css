@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #181818
+    background: #F0E68C;
 }
 
 .contenido {
@@ -26,7 +26,7 @@ a {
 #logo,
 header h1 {
     display: inline-block;
-    margin-bottom: 0px;
+    margin-bottom: 1px;
 }
 
 header h1 {
@@ -38,7 +38,7 @@ header h1 {
 header h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8em;
-    padding: 10px;
+    padding: 0px;
 }
 
 nav {
@@ -55,7 +55,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-right: 10px;
-    font-size: .90em;
+    font-size: 0.9em;
 }
 
 nav a {
@@ -65,6 +65,7 @@ nav a {
 
 nav a:hover {
     color: blue;
+    background: gold;
 }
 
 .imgSanfa {
@@ -88,7 +89,7 @@ nav a:hover {
 
 .boton {
     display: inline-block;
-    height: 30px;
+    height: 20px;
     position: absolute;
     right: 5px;
     bottom: 5px;
@@ -97,15 +98,16 @@ nav a:hover {
     text-align: center;
     color: white;
     text-decoration: none;
-    background: #5f0608;
+    background: #c4090c;
+    padding: 0.5em;
 }
 
 article {
     display: inline-block;
-    margin-right: 0;
+    margin-right: 10px;
     text-align: justify;
-    width: 610px;
-    padding: 15px;
+    width: 630px;
+    padding: 0px;
 }
 
 .zozor {
@@ -116,7 +118,7 @@ article {
 aside {
     display: inline-block;
     position: relative;
-    width: 250px;
+    width: 285px;
     background-color: #706b64;
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
@@ -129,7 +131,7 @@ aside {
 .bulle {
     position: absolute;
     top: 100px;
-    left: -12px;
+    left: -10px;
 }
 
 .burrito {
