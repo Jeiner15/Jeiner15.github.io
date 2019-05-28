@@ -7,7 +7,8 @@ body {
     width: 950px;
     height: auto;
     margin: auto;
-    background: #F0E68C;
+    background-image: url('../img/fond_jaune.png');
+    background-attachment: fixed;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
@@ -85,7 +86,16 @@ nav a:hover {
     opacity: 0.6;
 }
 
+article {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: justify;
+    width: 630px;
+}
+
 .boton {
+    background: #c4090c;
+    color: #fff;
     display: inline-block;
     height: 20px;
     position: absolute;
@@ -94,17 +104,8 @@ nav a:hover {
     border-radius: 5px;
     font-size: 0.9em;
     text-align: center;
-    color: white;
     text-decoration: none;
-    background: #c4090c;
-    padding: 0.2em;
-}
-
-article {
-    display: inline-block;
-    margin-right: 10px;
-    text-align: justify;
-    width: 630px;
+    padding: 0.1em;
 }
 
 .zozor {
@@ -146,7 +147,7 @@ aside img {
 
 .center {
     text-align: center;
-    margin: -10px
+    margin: -8px
 }
 
 footer {
