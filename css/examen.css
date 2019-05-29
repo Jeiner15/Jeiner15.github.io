@@ -1,0 +1,87 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #fff,
+}
+
+#menu {
+    background: #fff;
+}
+
+nav {
+    text-align: right;
+    width: 700px;
+    display: inline-block;
+}
+
+nav ul {
+    display: inline-block;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    background: rgb(55, 0, 255);
+}
+
+header {
+    background: aqua;
+}
+
+#principal {
+    float: right;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+#principal {
+    width: 44em;
+}
+
+.div1 {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.div2 {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+aside {
+    float: left;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: gray;
+    margin: 20px;
+}
+
+section {
+    float: right;
+    width: 1000px;
+    height: 1000px;
+}
+
+aside nav ul {
+    display: inline;
+    color: blue;
+    text-decoration: currentColor;
+}
+
+.nav {
+    display: inline;
+}
