@@ -13,112 +13,139 @@
     <title>Jeiner Rubio Acuña|Ingenieria de Sistemas-Universidad Nacional de Cajamarca</title>
     <link href="https://fonts.googleapis.com/css?family=Maiden+Orange" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="ifonds/style.css">
     <link rel="icon" type="img/png" href="img/ico.png" />
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="boos/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <a href="index.html" id="logo">
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <a href="index.html" class="logo">
             <h1>Jeiner Rubio Acuña</h1>
             <h2>Ingenieria de Sistemas-<abbr title="UNIVERSIDAD NACIONAL DE CAJAMARCA "><strong> UNC</Strong></h2>
 		</a>
 		<nav>
 			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="sitiosTuristicos.html" class="selected">Lugares Turisticos</a></li>
-				
-				<li><a href="contactos.html">Contacto</a></li>
+					<li><span class="icon-home"></span><a href="index.html" class="selected">Inicio</a></li>
+					<li><span class="icon-clipboard"></span><a href="sitiosTuristicos.html">Lugares Turisticos</a></li>
+					<li><span class="icon-phone"></span><a href="contactos.html">Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
-	
+<section class="contenido">
 	<div id="div">
 		 <video width="500" height="200" controls>
                         <source src="cajamarca.mp4" type="video/mp4">
                         <source src="cajamarca.mp4" type="video/ogg">                   
             </video>
 	</div>
-	
+
 	<div id="wrapper">
 		<section>
 			<ul id="gallery">
 				<li>
 					<a href="img/baños.jpg">
-						<img src="img/baños.jpg" alt="BAÑOS" class="img">
-						<p class="new"><strong>BAÑOS DEL INCA</strong></p>
+						<img src="img/baños.jpg" alt="BAÑOS"   class="img-responsive img-circle">
+						
+								<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">BAÑOS DEL INCA</a>					
+							  
+							  <div class="row">
+								<div class="col">
+								  <div class="collapse multi-collapse" id="multiCollapseExample1">
+									<div class="card card-body">
+									<p>Los Baños del Inca poseen aguas termales de temperaturas a 70ºC. Uno de los principales atractivos de este lugar es el Pozo del Inca. </p>		
+									</div>
+								  </div>
+								</div>
 					</a>
 				</li>
 				<li>
 					<a href="img/cat.jpg" >
-						<img src="img/cat.jpg" alt="CATARATAS" class="img">
-						<p class="new"><strong>CATARATAS LLACANORA</strong></p>
+						<img src="img/cat.jpg" alt="CATARATAS"  class="img-responsive img-circle">
+						<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">LLACANORA</a>					
+					
+					<div class="row">
+					  <div class="col">
+						<div class="collapse multi-collapse" id="multiCollapseExample1">
+						  <div class="card card-body">
+								<p>Dos hermosas y grandes cataratas en el distrito de Llacanora, a 30 minutos de la ciudad de Cajamarca.</p>
+						  </div>
+						</div>
+					  </div>
 					</a>
 				</li>
 				<li>
 					<a href="img/col.jpg" >
-						<img src="img/col.jpg" alt="LA COLLPA" class="img">
-						<p class="new"><strong>LA COLLPA</strong></p>
+						<img src="img/col.jpg" alt="LA COLLPA"  class="img-responsive img-circle">
+						<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">LA COLLPA</a>					
+					
+					<div class="row">
+					  <div class="col">
+						<div class="collapse multi-collapse" id="multiCollapseExample2">
+						  <div class="card card-body">
+								<p>Es uno de los atractivos turísticos de los alrededores de Cajamarca se ubica a 8 Km del centro de la ciudad, además de ello el llamado de vacas por su nombre, es lo que destaca de este centro turístico.</p>
+						  </div>
+						</div>
+					  </div>
+						
 					</a>
 				</li>
 				<li>
 					<a href="img/cu.jpg">
-						<img src="img/cu.jpg" alt="CUARTO DE RESCATE" class="img">
-						<p class="new"><strong>CUARTO DE RESCATE</strong></p>
+						<img src="img/cu.jpg" alt="CUARTO DE RESCATE"  class="img-responsive img-circle">
+						<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">CUARTO DE RESCATE</a>					
+					
+					<div class="row">
+					  <div class="col">
+						<div class="collapse multi-collapse" id="multiCollapseExample2">
+						  <div class="card card-body">
+								<p>En este cuarto de rescate estuvo prisionero el inca Atahualpa durante ocho meses, desde noviembre 1532 hasta julio de 1533. Aquí el inca levantó su brazo y trazó una línea hasta donde alcanzaría el oro y la plata que pagaría por su rescate. El inca Atahualpa cumplió. Mandó a traer el oro y la plata de Cusco, Huaylas y Huamachuco, sin embargo, nada impidió que los españoles lo ejecutaran en la Plaza de Armas.</p>
+						  </div>
+						</div>
+					  </div>
 					</a>
 				</li>
-				<li>
-					<a href="img/cumb.jpg" >
-						<img src="img/cumb.jpg" alt="CUMBEMAYO" class="img">
-						<p class="new"><strong>CUMBEMAYO</strong></p>
-					</a>
+				<li><a href="img/cumb.jpg" >
+						<img src="img/cumb.jpg" alt="CUMBEMAYO"  class="img-responsive img-circle">
+						<p class="new"><strong>CUMBEMAYO</strong></p></a>
 				</li>
-				<li>
-					<a href="img/gran.jpg">
-						<img src="img/gran.jpg" alt="GRANJA PORCON"  class="img">
-						<p class="new"><strong>GRANJA PORCON</strong></p>
-					</a>
+				<li><a href="img/gran.jpg">
+						<img src="img/gran.jpg" alt="GRANJA PORCON"   class="img-responsive img-circle">
+						<p class="new"><strong>GRANJA PORCON</strong></p></a>
 				</li>
-				<li>
-					<a href="img/lagu.jpg">
-						<img src="img/lagu.jpg" alt="LAGUNA SAN NICOLAS"  class="img">
-						<p class="new"><strong>LAGUNA SAN NICOLAS</strong></p>
-					</a>
+				<li><a href="img/lagu.jpg">
+						<img src="img/lagu.jpg" alt="LAGUNA SAN NICOLAS"  class="img-responsive img-circle">
+						<p class="new"><strong>LAGUNA SAN NICOLAS</strong></p></a>
 				</li>
-				<li>
-					<a href="img/pie.jpg">
-						<img src="img/pie.jpg" alt="TALLERES DE PIEDRA"  class="img">
-						<p class="new"><strong>TALLERES DE PIEDRA</strong></p>
-					</a>
+				<li><a href="img/pie.jpg">
+						<img src="img/pie.jpg" alt="TALLERES DE PIEDRA"   class="img-responsive img-circle">
+						<p class="new"><strong>TALLERES DE PIEDRA</strong></p></a>
 				</li>
-				<li>
-					<a href="img/pollo.jpg">
-						<img src="img/pollo.jpg" alt="POLLOC"  class="img">
-						<p class="new"><strong>POLLOC</strong></p>
-					</a>
+				<li><a href="img/pollo.jpg">
+						<img src="img/pollo.jpg" alt="POLLOC"   class="img-responsive img-circle">
+						<p class="new"><strong>POLLOC</strong></p></a>
 				</li>
-				<li>
-					<a href="img/sa.jpg">
-						<img src="img/sa.jpg" alt="SANTA APOLONIA"  class="img">
-						<p class="new"><strong>SANTA APOLONIA</strong></p>
-					</a>
+				<li><a href="img/sa.jpg"><img src="img/sa.jpg" alt="SANTA APOLONIA"   class="img-responsive img-circle">
+						<p class="new"><strong>SANTA APOLONIA</strong></p></a>
 				</li>
-				<li>
-					<a href="img/ven.jpg">
-						<img src="img/ven.jpg" alt="VENTANILLAS DE OTUZCO"  class="img">
-						<p class="new"><strong>VENTANILLAS DE OTUZCO</strong></p>
-					</a>
+				<li><a href="img/ven.jpg">
+						<img src="img/ven.jpg" alt="VENTANILLAS DE OTUZCO"   class="img-responsive img-circle">
+						<p class="new"><strong>VENTANILLAS DE OTUZCO</strong></p></a>
 				</li>
-				<li>
-					<a href="img/belen.jpg">
-						<img src="img/belen.jpg" alt="COMPLEJO BELEN"  class="img">
+				<li><a href="img/belen.jpg">
+						<img src="img/belen.jpg" alt="COMPLEJO BELEN"   class="img-responsive img-circle">
 						<p class="new"><strong>COMPLEJO BELEN</strong></p>
 					</a>
 				</li>
-			</u>
+			</ul>
 		</section>
 		<h3>Circuitos Turisticos</h3>
-            <section>
-             <table border="2">
+            <section class="table">
+             <table class="table-responsive table-borderless">
 				 <thead>		
                     <tr>
                         <th>Lugares</th>
@@ -168,23 +195,72 @@
                 </section>
                 </div>
                 </br>
+                </section>
                 <footer>
-                    <p>&copy; 2019 Jeiner Rubio Acuña</p>
-                    <aside class="asideDerecha">
-                        Siguenos:
-                        <section>
-                            <br/>
-                            <a href="https://www.facebook.com/" target="_blank" class="face">
-                                <abbr title="Facebook"><img src="img/facebook-wrap.png" alt="40" height="40"></abbr>
-                            </a>
-                            <a href="https://www.linkedin.com/feed/" target="_blank" class="link">
-                                <abbr title="LinkedIn"><img src="img/link.png" alt="" height="40" width="40"></abbr>
-                            </a>
-                            <a href="https://github.com/Jeiner15" target="_blank" class="git">
-                                <abbr title="GitHub"><img src="img/gi.png" alt="" height="40" width="40"></abbr>
-                            </a>
-                        </section>
+                    <div class="container-footer-all">
+                        <div class="container-body">
+                            <div class="colum1">
+                                <h1>Mas Informacion:</h1>
+                                <p>Estudinte de Ingenieria de Sistemas en la universidad Nacional de Cajamarca 9 ciclo</p>
+
+                            </div>
+                            <div class="colum2">
+                                <h1>Redes Sociales</h1>
+                                <div class="row">
+                                    <a href="https://www.facebook.com/" target="_blank" class="icon-facebook"></a>
+                                    <label>Facebook</label>
+
+                                </div>
+                                <div class="row">
+                                    <a href="https://github.com/  " target=" _blank " class="icon-github"></a>
+                                    <label>GitHub</label>
+
+                                </div>
+                                <div class="row">
+                                    <a href="hhttps://pe.linkedin.com/" target="_blank" class="icon-linkedin"></a>
+                                    <label>LinkedIn</label>
+
+                                </div>
+
+                            </div>
+                            <div class="colum3">
+                                <h1>Informacion Contactos</h1>
+                                <div class="row2">
+
+                                    <span class="icon-home"></span><label>Cajamarca,Avenida Perú #1292</label>
+
+                                </div>
+                                <div class="row2">
+
+                                    <span class="icon-phone"></span><label> 968881908</label>
+
+                                </div>
+                                <div class="row2">
+
+                                    <span class="icon-gmail"></span><label>jeinerrubioa15@gmail.com</label>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="container-footer">
+                            <div class="copyright">
+                                &copy;Todos los Drechos Reservados|<a href="">Jeiner Rubio</a>
+
+
+                            </div>
+                            <div class="information">
+                                <a href="">Informacion</a>|<a href="">Privacidad Y politicas</a>|<a href="">Terminos y Condiciones</a>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </footer>
+                <script src="boos/bootstrap/js/bootstrap.min.js"></script>
+                <script src="boos/bootstrap/js/jquery.js"></script>
+                <script src="boos/bootstrap/js/jquery-1.11.3.min.js"></script>
 </body>
 
 </html>

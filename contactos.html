@@ -13,72 +13,148 @@
     <title>Jeiner Rubio Acuña|Ingenieria de Sistemas-Universidad Nacional de Cajamarca</title>
     <link href="https://fonts.googleapis.com/css?family=Maiden+Orange" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="ifonds/style.css">
     <link rel="icon" type="img/png" href="img/ico.png" />
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="boos/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <header>
-        <a href="index.html" id="logo">
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <a href="index.html" class="logo">
             <h1>Jeiner Rubio Acuña</h1>
             <h2>Ingenieria de Sistemas-<abbr title="UNIVERSIDAD NACIONAL DE CAJAMARCA "><strong> UNC</Strong></h2>
 		</a>
 		<nav>
 			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="sitiosTuristicos.html">Lugares Turisticos</a></li>	
-				<li><a href="contactos.html" class="selected">Contacto</a></li>
+				<li><span class="icon-home"></span><a href="index.html">Inicio</a></li>
+				<li><span class="icon-clipboard"></span><a href="sitiosTuristicos.html">Lugares Turisticos</a></li>	
+                <li><span class="icon-phone"></span><a href="contactos.html" class="selected">Contacto</a></li>
+                
 			</ul>
 		</nav>
-	</header>
+    </header>
+    <section class="contenido">
 	<div id="wrapper">
 		<section id="primary">
-			 <h3>Sugerencias</h3>
-    <form>
-        <label for="nombre">Nombre:</label>
-        <br/>
-        <input type="text" name="nombre" placeholder="Escribe tu Nombre" id="nombre" />
-        <br/>
-        <label for="email">E-mail:</label>
-        <br/>
-        <input type="email" name="email" placeholder="E-mail" id="email" />
-        <br/> Seleccione Pais:
-        </br>
-        <select>
-            <option value="Perù">Perù</option>
-            <option value="Brasil">Brasil</option>
-            <option value="Argentina">Argentina</option>
-        </select>
-        <br/>
-        <label for="suge">Sugerencias:</label>
-        <br>
-        <input type="text" name="comment" value="" size="50" id="suge" />
-        <br/>
-        <input type="checkbox">Hombre
-        <input type="checkbox">Mujer
-        <br/>
-        <input type="submit" name="Enviar" />
-        <input type="reset" name="borrar" value="Eliminar" />
-    </form>
+             <h3>Sugerencias</h3>
+             <form action="/action_page.php ">
+                <div class="form-group">
+                  <label for="nombre">Name:</label>
+                  <input type="nombre" class="form-control" id="nombre">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <select>
+                        <option value="Perù">Perù</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Argentina">Argentina</option>
+                    </select>
+                    <div class="form-group">
+                            <label for="comment">Comment:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                          </div>
+                          <div class="form-check-inline">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input" value="">Men
+                                </label>
+                              </div>
+                              <div class="form-check-inline">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input" value="">Women
+                                </label>
+                              </div>
+                            </br>
+                <button type="submit" class="btn btn-primary" >Enviar</button>
+                
+                <input type="reset" name="borrar" value="Eliminar" class="btn btn-outline-primary" type="submit"/>
+              </form>
+    
 		</section>
 		<section id="secondary">
 			<h3>Detalles de contacto</h3>
 			<ul class="contact-info">
-				<li class="phone"><a href="tel:968881908" class="a"><strong>968881908</strong></a></li>
-				<li class="mail"><a href="mailto:jeinerrubioa15@gmail.com" class="a"><strong>jeinerrubioa15@gmail.com</strong></a></li>
-				<li class="face"><a href="https://www.facebook.com/" class="a"><strong>Facebook Jeiner</strong></a></li>
-			</ul>
-		</section>
-		<section>			
-        <h3>Ubicación:</h3>
+				<li><span class="icon-phone"></span><a href="tel:968881908" class="a"><strong>968881908</strong></a></li>
+				<li><span class="icon-gmail"></span><a href="mailto:jeinerrubioa15@gmail.com" class="a"><strong>jeinerrubioa15@gmail.com</strong></a></li>
+				<li><span class="icon-facebook"></span><a href="https://www.facebook.com/" class="a"><strong>Facebook Jeiner</strong></a></li>
+            </ul>
+            <h3>Ubicación:</h3>
         <address>Av. Perù &num;1292-Cajamarca</address>
         </br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.6636245234035!2d-78.51860738568035!3d-7.164829072289491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25b01c1d3bb9d%3A0x17d658673ea6b7ca!2sAv.+Per%C3%BA+1292%2C+Cajamarca+06002!5e0!3m2!1ses!2spe!4v1557032972269!5m2!1ses!2spe"
             width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</section>
+	
     </div>
+</section>
 </br>
 	<footer>
-		<p>&copy; 2019 Jeiner Rubio Acuña</p>
+    <div class="container-footer-all">
+    <div class="container-body">
+      <div class="colum1">
+        <h1>Mas Informacion:</h1>
+        <p>Estudinte de Ingenieria de Sistemas en la universidad Nacional de Cajamarca 9 ciclo</p>
+
+      </div>
+      <div class="colum2">
+        <h1>Redes Sociales</h1>
+        <div class="row">
+            <a href="https://www.facebook.com/" target="_blank" class="icon-facebook"></a>
+          <label >Facebook</label>
+
+        </div>
+        <div class="row">
+            <a href="https://github.com/  " target=" _blank " class="icon-github"></a>
+            <label >GitHub</label>
+  
+          </div>
+          <div class="row">
+              <a href="hhttps://pe.linkedin.com/" target="_blank" class="icon-linkedin"></a>
+              <label >LinkedIn</label>
+    
+            </div>
+
+      </div>
+      <div class="colum3">
+        <h1>Informacion Contactos</h1>
+        <div class="row2">
+            
+            <span class="icon-home"></span><label>Cajamarca,Avenida Perú #1292</label>
+
+        </div>
+        <div class="row2">
+            
+            <span class="icon-phone"></span><label > 968881908</label>
+
+        </div>
+        <div class="row2">
+            
+            <span class="icon-gmail"></span><label>jeinerrubioa15@gmail.com</label>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="container-footer">
+      <div class="copyright">
+        &copy;Todos los Drechos Reservados|<a href="">Jeiner Rubio</a>
+
+
+      </div>
+      <div class="information">
+        <a href="">Informacion</a>|<a href="">Privacidad Y politicas</a>|<a href="">Terminos y Condiciones</a>
+
+      </div>
+    </div>
+  </div>
+		<!---<p>&copy; 2019 Jeiner Rubio Acuña</p>
 		<aside class="asideDerecha">
         Siguenos:
         <section>
@@ -92,7 +168,7 @@
         <a href="https://github.com/Jeiner15" target="_blank">
             <abbr title="GitHub"><img src="img/gi.png" alt="" height="40" width="40"></abbr>
         </a>
-        </section>
+        </section>--->
         </footer>
 </body>
 
