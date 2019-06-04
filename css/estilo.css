@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/fondo1.jpg');
     background-size: cover;
 }
 
@@ -412,6 +412,11 @@ tr:hover {
     transition: all 500ms ease;
 }
 
+.social ul li a:hover {
+    background: white;
+    border-radius: 50px;
+}
+
 .social ul li .icon-facebook {
     background: #4169E1;
     margin: 0em;
@@ -456,4 +461,13 @@ tr:hover {
 
 .section {
     align-content: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.h3 {
+    font-family: cursive;
+    overflow: hidden;
 }
