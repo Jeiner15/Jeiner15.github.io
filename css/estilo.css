@@ -135,6 +135,15 @@ header nav a:hover {
     line-height: 100px;
 }
 
+@media screen and (max-width:850px) {
+    header .logo,
+    header nav {
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }
+}
+
 footer {
     background: rgba(17, 7, 17, 0);
     color: #fff;
@@ -443,4 +452,8 @@ tr:hover {
 
 #p1 {
     text-align: justify;
+}
+
+.section {
+    align-content: center;
 }
