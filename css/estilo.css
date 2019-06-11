@@ -1,153 +1,73 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-image: url('../img/fondo1.jpg');
-    background-size: cover;
+.navbar {
+    margin-bottom: 0;
 }
 
-#wrapper {
+.botrom {
+    background-image: url('../img/butro.jpg');
+    color: #fff;
+    padding: 0;
     width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 5%;
-    overflow: hidden;
-    justify-content: center;
+    height: 150px;
     margin-top: 40px;
-    color: #f5f5f5;
-}
-
-#p {
-    color: #101010;
-}
-
-aside {
-    float: left;
-}
-
-.contenido {
-    padding-top: 140px;
+    opacity: 1;
+    background-repeat: no-repeat;
 }
 
 p {
     text-align: justify;
 }
 
-a {
-    text-decoration: none;
-    color: #f5f5f5;
-}
-
-.a {
-    color: #f5f5f5;
-}
-
-img {
-    max-width: 100%;
-    align-content: center;
-    display: inline-block;
-    margin: auto;
-}
-
 h3 {
-    margin: 0 0 1em 0;
+    color: #000;
 }
 
-header {
-    float: left;
-    margin: 0 0 20px 0;
-    padding: 5px 0 0 0;
-    width: 100%;
-    height: 140px;
-    color: #f5f5f5;
-    overflow: hidden;
-    margin-bottom: 20px;
+#img {
+    align-items: center;
+    justify-content: center;
 }
 
-#div {
-    text-align: center;
-    border: blue;
-}
-
-header .logo {
-    color: #f5f5f5;
-    font-size: 50px;
-    line-height: 200px;
-    float: left;
-}
-
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 15px 0;
-    font-size: 1em;
-    color: #f5f5f5;
-    font-weight: normal;
-    line-height: 0.8em;
-}
-
-h2 {
-    font-size: 1em;
-    margin: -5px 0 0;
-    font-weight: normal;
-    color: #fff;
-}
-
-nav {
-    width: 700px;
-}
-
-nav ul {
-    margin: 10px 10%;
-    padding: 0;
-    list-style: none;
-    margin-bottom: 25px;
-    text-decoration: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    text-decoration: none;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    line-height: normal;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-header nav a:hover {
-    background: #f56f3a;
-    border-radius: 50px;
-}
-
-.header2 {
-    position: fixed;
-    height: 100px;
-}
-
-.header2 .logo {
-    line-height: 100px;
-    font-size: 20px;
-}
-
-.header2 nav {
-    line-height: 100px;
-}
-
-@media screen and (max-width:850px) {
-    header .logo,
-    header nav {
-        width: 100%;
-        text-align: center;
-        line-height: 100px;
-    }
+header nav li:hover {
+    background: #3a6cf5;
 }
 
 footer {
     background: rgba(17, 7, 17, 0);
     color: #fff;
     width: 100%;
+}
+
+.redes {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redes a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 10px;
+    padding: 10px 0;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.redes .facebook {
+    background: #3b5998
+}
+
+.redes .twitter {
+    background: #55acee
+}
+
+.redes .instagram {
+    background: #DB7093
+}
+
+.redes .whatsapp {
+    background: rgb(0, 252, 134)
 }
 
 .container-footer-all {
@@ -247,12 +167,12 @@ footer {
 
 .table {
     border: black;
-    width: 50%;
+    width: 100%;
     text-align: justify;
     border: #051925;
     margin: auto;
     justify-content: center;
-    background: #3adfff;
+    background: #fff
 }
 
 th,
@@ -278,19 +198,6 @@ tr:hover {
     color: white;
 }
 
-#new {
-    font-family: 'cursive';
-    color: black;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: left;
-    line-height: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    padding: 10px;
-}
-
 @media all and (min-width: 500px) {
     #primary {
         width: 30%;
@@ -298,97 +205,71 @@ tr:hover {
         margin: 20px;
     }
     #secondary {
-        width: 50%;
+        width: 45%;
         float: right;
         margin: 10px;
     }
     #gallery li {
-        width: 28.3333%;
+        width: 30%;
+        align-content: center;
     }
     #gallery li:nth-child(20n) {
         clear: left;
         float: left;
     }
-    .profile-photo {
-        float: left;
-        margin: 0 50% 200px 0;
-    }
 }
 
-@media all and (min-width: 660px) {
-    nav {
-        background: none;
-        float: right;
-        font-size: 1.125em;
-        margin-right: 5%;
-        text-align: right;
-        width: 45%;
-    }
-    #logo {
-        float: left;
-        margin-left: 5%;
-        text-align: left;
-        width: 45%;
-    }
-    h1 {
-        font-size: 2.5em;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: #ffffff;
-        text-decoration-line: none;
-    }
-    h2 {
-        font-size: 0.825em;
-        margin-bottom: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    header {
-        border-bottom: 5px solid #3adfff;
-        margin-bottom: 60px;
-    }
+aside {
+    float: left;
+}
+
+.card:hover {
+    background: #1E90FF;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px darkgray;
+}
+
+.aside {
+    float: right;
+    right: 0;
+    top: 180px;
+    z-index: 1000px;
+    margin: -150px;
+    margin-top: -165px;
+}
+
+.aside1 {
+    float: right;
+    right: 0;
+    top: 180px;
+    z-index: 1000px;
+    margin: -90px;
+    margin-top: -150px;
 }
 
 #gallery {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-content: center;
 }
 
 #gallery li {
     float: left;
-    width: 49%;
-    margin: 0.5%;
-    background-color: #f5f5f5;
+    width: 31.5%;
+    margin: 10px;
+    background-color: #fff;
     color: #051925;
+    text-decoration: none;
 }
 
 #gallery li a p {
-    margin: 0;
     padding: 0.1%;
     font-size: 0.75em;
     color: #1A1B1B;
-}
-
-.profile-photo {
-    display: block;
-    max-width: 150px;
-    margin: 0 auto 100px;
-    border-radius: 200%;
-}
-
-.contact-info {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0.9em;
-}
-
-.contact-info a {
-    display: block;
-    min-height: 10px;
-    background-repeat: no-repeat;
-    background-size: 10px 10px;
-    padding: 0 0 0 30px;
-    margin: 0 0 10px;
+    text-decoration: none;
 }
 
 .social {
@@ -397,6 +278,7 @@ tr:hover {
     top: 200px;
     z-index: 2000px;
     margin: -40px;
+    margin-top: 100px;
 }
 
 .social ul {
@@ -445,29 +327,4 @@ tr:hover {
     background: #3a3b3f;
     margin: 0em;
     border-radius: 0.1em;
-}
-
-#sec {
-    margin-top: 40px;
-}
-
-#p {
-    text-align: justify;
-}
-
-#p1 {
-    text-align: justify;
-}
-
-.section {
-    align-content: center;
-}
-
-img {
-    border-radius: 10px;
-}
-
-.h3 {
-    font-family: cursive;
-    overflow: hidden;
 }
