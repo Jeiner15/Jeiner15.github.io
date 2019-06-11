@@ -9,6 +9,9 @@ body {
 
 .navbar {
     margin-bottom: 0;
+    color: rgb(243, 229, 229);
+    overflow: hidden;
+    font-family: 'luminari''fantasy';
 }
 
 .botrom {
@@ -20,6 +23,17 @@ body {
     margin-top: 40px;
     opacity: 1;
     background-repeat: no-repeat;
+}
+
+·leer {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.7em;
+    margin-top: 30px;
 }
 
 p {
@@ -41,6 +55,9 @@ h4 {
 
 header nav li:hover {
     background: #3a6cf5;
+    color: rgb(243, 229, 229);
+    overflow: hidden;
+    font-family: 'luminari''fantasy';
 }
 
 footer {
